@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Raftar Bihar | Bike Taxi Startup</title>
+<title>रफ्तार बिहार | बाइक टैक्सी सेवा</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
@@ -25,7 +25,7 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px 8%;
+    padding:15px 8%;
     background:white;
     box-shadow:0 2px 10px rgba(0,0,0,0.05);
     position:fixed;
@@ -33,8 +33,20 @@ nav{
     top:0;
 }
 
-nav h2{
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:45px;
+    height:45px;
+}
+
+.logo h2{
     color:#ff8c00;
+    font-size:20px;
 }
 
 nav button{
@@ -60,7 +72,7 @@ nav button{
 }
 
 .hero h1{
-    font-size:3.5rem;
+    font-size:3rem;
     margin-bottom:20px;
 }
 
@@ -77,7 +89,6 @@ nav button{
     font-weight:bold;
     border-radius:30px;
     cursor:pointer;
-    font-size:1rem;
     transition:0.3s;
 }
 
@@ -139,13 +150,9 @@ footer{
     color:white;
 }
 
-/* RESPONSIVE */
 @media(max-width:768px){
     .hero h1{
-        font-size:2.5rem;
-    }
-    nav{
-        padding:15px 5%;
+        font-size:2.2rem;
     }
 }
 </style>
@@ -154,41 +161,44 @@ footer{
 <body>
 
 <nav>
-<h2>Raftar Bihar</h2>
-<button>Download App</button>
+<div class="logo">
+<img src="logo.png" alt="Raftar Logo">
+<h2>रफ्तार बिहार</h2>
+</div>
+<button>ऐप डाउनलोड करें</button>
 </nav>
 
 <section class="hero">
-<h1>Bihar’s Smart Bike Taxi Service</h1>
-<p>Fast • Affordable • Safe Rides Across Bihar</p>
-<button>Book Your Ride</button>
+<h1>बिहार की स्मार्ट बाइक टैक्सी सेवा</h1>
+<p>तेज़ • सस्ती • सुरक्षित यात्रा</p>
+<button>अभी बुक करें</button>
 </section>
 
 <section class="services">
 <div class="card">
-<h3>⚡ Fast Pickup</h3>
-<p>Quick arrival in narrow lanes and busy areas.</p>
+<h3>⚡ तेज़ पिकअप</h3>
+<p>भीड़ और संकरी गलियों में भी तुरंत सेवा।</p>
 </div>
 
 <div class="card">
-<h3>💰 Affordable Pricing</h3>
-<p>Low-cost rides for daily commuters.</p>
+<h3>💰 किफायती किराया</h3>
+<p>दैनिक यात्रियों के लिए सबसे सस्ता विकल्प।</p>
 </div>
 
 <div class="card">
-<h3>🛡️ Safe & Verified Riders</h3>
-<p>Background checked professional riders.</p>
+<h3>🛡️ सुरक्षित राइडर</h3>
+<p>सभी राइडर सत्यापित और प्रशिक्षित।</p>
 </div>
 </section>
 
 <section class="cta">
-<h2>Ready to Ride with Raftar?</h2>
-<p>Join Bihar’s fastest growing mobility startup.</p>
-<button>Get Started</button>
+<h2>क्या आप तैयार हैं रफ्तार के साथ?</h2>
+<p>बिहार की सबसे तेज़ी से बढ़ती मोबिलिटी स्टार्टअप से जुड़ें।</p>
+<button>शुरू करें</button>
 </section>
 
 <footer>
-© 2026 Raftar Bihar. All Rights Reserved.
+© 2026 रफ्तार बिहार. सर्वाधिकार सुरक्षित।
 </footer>
 
 </body>
